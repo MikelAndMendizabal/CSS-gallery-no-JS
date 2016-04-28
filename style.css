@@ -1,0 +1,49 @@
+#pic1, #pic2, #pic3
+{
+display: none;
+position: absolute;
+top: 0px;
+left:0px;
+z-index: -1;
+}
+
+#pic1:target {
+  display: block;
+}
+
+#pic2:target {
+  display: block;
+}
+
+#pic3:target {
+  display: block;
+}
+
+#selectors
+{
+  position: fixed;
+  top: 400px;
+  left:450px;
+  width: auto;
+
+}
+
+.button
+{
+ background-color: rgba(192, 192, 192, 0.8);
+ width: 10px;
+ height: 10px;
+ border-radius: 20px;
+ margin: 10px;
+ position: relative;
+ float: left;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
